@@ -1,0 +1,4 @@
+faiss-cpu
+langchain
+python-dotenv
+openai
