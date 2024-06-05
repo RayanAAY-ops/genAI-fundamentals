@@ -1,4 +1,7 @@
+langchain-core==0.2.3
+langchain==0.1.2
 faiss-cpu
-langchain
 python-dotenv
-openai
+pypdf
+langchain-openai
+langchain_pinecone
