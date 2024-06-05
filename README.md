@@ -1,13 +1,19 @@
-# Steps
-ask a question : convert into embedding using openai API
-search into an index: to look for the NN thanks to FAISS
-pass those NN into a prompt
-provide a prompt to the LLM
-Get an answer to the user.
+# Faiss-indexing-data.ipynb
 
+This notebook demonstrates how to enhance a Large Language Model (LLM) using a RAG by FAISS index. By incorporating a retriever mechanism, we can provide more relevant and context-aware responses from the LLM.
 
-In summary, we can  augment our LLM with an index of our choice, by converting the index as retriever. We can parametrize the retriever by using some parameters:
-['fetch_k'] = number of vectors retrieved from the index.
-['mmr'] = diversify the information
-['k'] = number of context vector provided to the LLM
+## Workflow
 
+1. **Ask a Question**: Convert the question into embeddings using the OpenAI API.
+2. **Search the Index**: Look for the nearest neighbors (NN) using FAISS.
+3. **Pass NN into a Prompt**: Use the retrieved neighbors to construct a context for the LLM.
+4. **Provide a Prompt to the LLM**: Feed the context-enriched prompt to the LLM.
+5. **Get an Answer**: Retrieve and return the answer to the user.
+
+## Parameters for the Retriever
+
+We can customize the retriever with the following parameters:
+
+- `fetch_k`: Number of vectors retrieved from the index.
+- `mmr`: Use Maximal Marginal Relevance (MMR) to diversify the information.
+- `k`: Number of context vectors provided to the LLM.
