@@ -10,3 +10,4 @@ newsapi-python
 apify-client
 chromadb
 langchain-community
+GitPython
