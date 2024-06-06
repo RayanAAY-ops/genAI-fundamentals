@@ -7,3 +7,6 @@ langchain-openai
 langchain_pinecone
 pinecone-client
 newsapi-python
+apify-client
+chromadb
+langchain-community
