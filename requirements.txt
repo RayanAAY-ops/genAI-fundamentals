@@ -11,3 +11,11 @@ apify-client
 chromadb
 langchain-community
 GitPython
+
+# Multimodal RAG
+unstructured #  provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more --> dedicated to LLMs
+unstructured-inference
+onnx 
+pytesseract # required for digits recognition (OCR)
+tesseract
+python-poppler
