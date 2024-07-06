@@ -19,3 +19,8 @@ onnx
 pytesseract # required for digits recognition (OCR)
 tesseract
 python-poppler
+
+# Knowledge DB + graphDB
+
+networkx
+neo4j
