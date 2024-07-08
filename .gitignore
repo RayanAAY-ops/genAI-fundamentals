@@ -1,5 +1,7 @@
 .env
 .ipynb_checkpoints
 test.ipynb
+*.svg
+*.pdf
 data/
 figures/
